@@ -31,6 +31,10 @@ public class User {
         this.id = id;
     }
 
+    public List<String> getRoles() {
+        return roles;
+    }
+
     public String getName() {
         return name;
     }
@@ -55,9 +59,6 @@ public class User {
         this.password = password;
     }
 
-    public List<String> getRoles() {
-        return roles;
-    }
 
     public void setRoles(List<String> roles) {
         this.roles = roles;
